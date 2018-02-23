@@ -8,7 +8,7 @@ class Sorter {
 	}
 	
 	at(index) {
-		//What does the index do here? For what it?
+		return this.arrayOfElements[index];
 	}
 	
 	get length() {
