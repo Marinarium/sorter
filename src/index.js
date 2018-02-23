@@ -33,5 +33,9 @@ class Sorter {
       this.arrayOfElemnts[indices[i]] = array[i];
     }
   }
+  
+  setComparator(compareFunction) {     
+    this.compareFunction = compareFunction;      
+  }  
 }
 module.exports = Sorter;
